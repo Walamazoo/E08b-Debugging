@@ -34,7 +34,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func update_interface() -> void:
-	score_label.Text = "Score: %s" % PlayerData.score
+	score_label.text = "Score: %s" % PlayerData.score
 
 
 func set_paused(value: bool) -> void:
